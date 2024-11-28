@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Spice&family=Chango&family=Comfortaa:wght@300..700&family=Dongle&family=Faster+One&family=Ga+Maamli&family=Racing+Sans+One&family=Rubik+Mono+One&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Spice&family=Chango&family=Comfortaa:wght@300..700&family=Dongle&family=Ga+Maamli&family=Racing+Sans+One&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Spice&family=Chango&family=Comfortaa:wght@300..700&family=Dongle&family=Ga+Maamli&family=Racing+Sans+One&family=Rubik+Mono+One&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Spice&family=Chango&family=Comfortaa:wght@300..700&family=Dongle&family=Faster+One&family=Ga+Maamli&family=Racing+Sans+One&family=Rampart+One&family=Rubik+Mono+One&family=Silkscreen:wght@400;700&display=swap');
+button:hover{
+    background-color: #1e8cbf;
+    box-shadow: 0 0 50px #dfe750; /*Editar sombra*/
+    border-color: #eaea16; /*Color del borde*/
+  }
+
+  .caja:hover{
+    box-shadow: 0 0 30px #23ef60; /*Editar sombra*/
+    border-color:#10d454; /*Color del borde*/
+  }
+  .caja2:hover{
+    box-shadow: 0 0 50px #dfe750; /*Editar sombra*/
+    border-color: #eaea16; /*Color del borde*/
+  }
+
+
+  h3:hover{
+    box-shadow: 0 0 30px #23ef60; /*Editar sombra*/
+    border-color:#10d454; /*Color del borde*/
+  }
+
+  body{
+    background-image: url('/public/image/fondo.webp'); /* Reemplaza con la ruta de tu archivo PNG */ 
+    background-repeat:repeat;
+    background-size: 450px;
+    font-family: Verdana, Arial, sans-serif;
+  }
+  h1{
+    color:black; /* Color de la letra */
+    font-family: "Faster One", system-ui; /* estilo de la letra */
+    font-weight: 400;
+    font-style: normal;
+  }
+  h2{
+    font-family: "Silkscreen", sans-serif;      /* Estilo de la letra */
+    
+  }
+  h3{
+    font-family: "Rampart One", sans-serif;
+    font-size: 45px;
+    border: 2px outset yellow;     /* Línea punteada borde */
+    border-radius: 0px 30px 0px 30px;    /* Bordes redondeados */
+     }
+  p{
+    text-align: justify;
+  }
+  img{
+    width: 100%;
+    border: 2px outset yellow;     /* Línea punteada borde */
+    border-radius: 60px;    /* Bordes redondeados */
+  }
+  button{
+    background-color: #2C8F20;
+    border-radius: 10px; /*Radio del borde*/
+    color: white;      /* Color de la letra */
+    padding: 20px;        /* Espaciado interno */  
+    margin-top: 10px;
+    font-weight: bold;   /*Letra negrita*/
+    font-size: 20px;      /* Tamaño de la letra */
+    border-bottom: none;  /*Borde*/
+    cursor: pointer;  /* Cambia el cursor a una mano */ 
+    margin-bottom: 10px; 
+  }
+  
+  footer{
+    text-align: center;    /* Definir la alineación del texto horizontal*/
+    width:auto;            /* Ancho del contenedor */
+    height: 80px;         /* Alto del contenedor */  
+    margin: 40px;           /* Espaciado externo */ 
+    line-height: 80px;     /* Definir la alineación del texto vertical*/
+    background-color: red; /* Color de fondo */  
+    font-size: 30px;      /* Tamaño de la letra */ 
+    color: white;
+    border-radius: 10px; /*Radio del borde*/
+    font-size: 25px;      /* Tamaño de la letra */ 
+  }
+  
+
+  
+  /* clases */
+  .caja { 
+    display: inline-flex; /*Se alinie en el medio*/
+    justify-content: center;
+    width:80%;            /* Ancho del contenedor */
+    line-height: 5px;    /* Definir la alineación del texto vertical */
+    margin: 20px;           /* Espaciado externo */ 
+    background-color: #c13831; /* Color de fondo */ 
+    box-sizing: border-box;  /* Incluye el padding y el border en el tamaño total */ 
+    font-size: 50px;      /* Tamaño de la letra */ 
+    border: 25px groove #129de2;     /* Línea doble */
+    border-radius: 60px; /*Radio del borde*/
+  } 
+  .caja2 { 
+    width:auto;            /* Ancho del contenedor */
+    margin: 40px;           /* Espaciado externo */  
+    padding: 15px 20px 15px;    /* Borde del contenedor */
+    background-color: #2aca1b; /* Color de fondo */ 
+    font-size: 20px;      /* tamaño de la letra */
+    border-radius: 30px;    /* Bordes redondeados */
+    border: 15px dashed #077fbb;     /* Línea punteada */  
+   
+  }
+  .caja3 { 
+    text-align: right;    /* Definir la alineación del texto */
+    padding: 0px 15px 8px 15px; /* Borde del contenedor top-right-botton-left */   
+    background-color: white; /* Color de fondo */ 
+    font-size: 18px;      /* Tamaño de la letra */
+    border-radius: 10px;    /* Bordes redondeados */
+    margin-bottom: 40px;  /* Margen de abajo */
+    
+  }
+  
+  .caja4 { 
+    text-align: center;    /* Definir la alineación del texto */
+    width:auto;            /* Ancho del contenedor */  
+    background-color: white; /* Color de fondo */ 
+    font-size: 20px;      /* Tamaño de la letra */
+    border-radius: 15px;    /* Bordes redondeados */
+    margin-bottom: 40px;  /* Margen de abajo */
+  }
+  .boton{
+    text-align: center;       /* Centra el texto */
+  }
+  
+  .estilo_mario{
+    background-image: url('/public/image/mario-echado.webp'); /* Reemplaza con la ruta de tu archivo PNG */ 
+    background-repeat:no-repeat; 
+    background-position-x: 15%; /* Mantiene a la izquierda un 25% al centro */  
+    background-size: 65px;
+    background-color: #dfe750;
+  }
+
+  .estilo_mortal{
+    background-image: url('/public/image/logo_mortal.webp'); /* Reemplaza con la ruta de tu archivo PNG */ 
+    background-repeat:no-repeat; 
+    background-position-x: 15%; /* Mantiene a la izquierda un 25% al centro */  
+    background-size: 115px;
+    background-color: #c67d24fc;
+  }
+  .mi_formulario{  
+      margin: 0 auto; /* Centrar el formulario */  
+      padding: 10px; /* Espaciado interno */  
+      border: 2px solid  #BC105C; /* Bordes del formulario */  
+      border-radius: 5px; /* Bordes redondeados */  
+      background-color: #f9f9f9; /* Color de fondo */ 
+      text-align: center; /*centrar el texto*/
+      background-image: url('/public/image/mario.webp'); /* Reemplaza con la ruta de tu archivo PNG */ 
+      background-repeat: repeat; 
+      background-size:contain; /* Mantiene el tamaño original de la imagen */  
+      width:80%; 
+  }
+  
+  .mi_formulario2{  
+    margin: 0 auto; /* Centrar el formulario */  
+    padding: 10px; /* Espaciado interno */  
+    border: 2px solid  #BC105C; /* Bordes del formulario */  
+    border-radius: 5px; /* Bordes redondeados */  
+    background-color: #f9f9f9; /* Color de fondo */ 
+    text-align:center; /*centrar el texto*/
+    background-image: url('/public/image/mortal-kombat.webp'); /* Reemplaza con la ruta de tu archivo PNG */ 
+    background-repeat: repeat;
+    background-size: 10%; 
+    width: 80%; 
+  }
+  
+  .mi_formulario2 input{
+      width: auto; /* Ancho total del campo */  
+      padding: 10px; /* Espaciado interno del campo */  
+      margin-bottom: 15px; /* Espaciado entre campos */  
+      border: 2px solid #BC105C; /* Bordes de los campos */  
+      border-radius: 3px; /* Bordes redondeados para los campos */  
+  }
+  
+  .radio{
+    font-size: 15px;      /* Tamaño de la letra */ 
+    padding: 15px 20px 15px 40px; /* Borde del contenedor top-right-botton-left */
+    
+  }
+  .imagen_formulario{
+    width: 70%;
+  
+  }
+
+  .contenedor{
+    display: flex;
+    gap: 20px; /* Espacio entre las cajas */ 
+  }
+  .flex{
+    flex: 1; /* Las cajas ocuparán el mismo ancho */ 
+  }
+  
+  

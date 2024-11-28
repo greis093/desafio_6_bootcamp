@@ -1,0 +1,140 @@
+
+button:hover{
+  background-color: #E11364;
+}
+body{
+  background-color: #E11364;
+  font-family: Verdana, Arial, sans-serif;
+}
+h1{
+  color:white; /* Color de la letra */
+}
+h2{
+  
+  color: white; /* Color de la letra */
+}
+h3{
+  color:#ac0d55;      /* Color de la letra */
+  border-bottom: 2px dotted #ac0d55;     /* Línea punteada en la parte superior */
+}
+p{
+  text-align: justify;
+}
+img{
+  width: 100%;
+}
+button{
+  background-color: #2C8F20;
+  border-radius: 10px; /*Radio del borde*/
+  color: white;      /* Color de la letra */
+  padding: 20px;        /* Espaciado interno */  
+  margin-top: 10px;
+  font-weight: bold;   /*Letra negrita*/
+  font-size: 20px;      /* Tamaño de la letra */
+  border-bottom: none;  /*Borde*/
+  cursor: pointer;  /* Cambia el cursor a una mano */  
+}
+
+footer{
+  text-align: center;    /* Definir la alineación del texto horizontal*/
+  width:auto;            /* Ancho del contenedor */
+  height: 80px;         /* Alto del contenedor */  
+  margin: 40px;           /* Espaciado externo */ 
+  line-height: 80px;     /* Definir la alineación del texto vertical*/
+  background-color: #E96093; /* Color de fondo */  
+  font-size: 30px;      /* Tamaño de la letra */ 
+  color: white;
+  border-radius: 10px; /*Radio del borde*/
+  font-size: 25px;      /* Tamaño de la letra */ 
+}
+
+
+/* clases */
+.caja { 
+  text-align: center;    /* Definir la alineación del texto horizontal */
+  width:auto;            /* Ancho del contenedor */
+  height: 150px;         /* Alto del contenedor */  
+  line-height: 150px;    /* Definir la alineación del texto vertical */
+  margin: 40px;           /* Espaciado externo */   
+  background-color: #BC105C; /* Color de fondo */ 
+  border-left: 8px  solid white;  /* Borde izquierdo */
+  border-right: 8px solid  white; /* Borde del derecha */
+  box-sizing: border-box;  /* Incluye el padding y el border en el tamaño total */ 
+  font-size: 30px;      /* Tamaño de la letra */ 
+} 
+.caja2 { 
+  text-align: left;    /* Definir la alineación del texto */
+  width:auto;            /* Ancho del contenedor */
+  margin: 40px;           /* Espaciado externo */  
+  padding: 15px 20px 15px;    /* Borde del contenedor */
+  background-color: #BC105C; /* Color de fondo */ 
+  font-size: 20px;      /* tamaño de la letra */
+  border-radius: 10px;    /* Bordes redondeados */
+}
+.caja3 { 
+  text-align: right;    /* Definir la alineación del texto */
+  width:auto;            /* Ancho del contenedor */
+  padding: 10px 15px 8px 15px; /* Borde del contenedor top-right-botton-left */   
+  background-color: white; /* Color de fondo */ 
+  font-size: 20px;      /* Tamaño de la letra */
+  border-radius: 15px;    /* Bordes redondeados */
+  margin-bottom: 40px;  /* Margen de abajo */
+}
+
+.caja4 { 
+  text-align: left;    /* Definir la alineación del texto */
+  width:auto;            /* Ancho del contenedor */
+  padding: 10px 15px 8px 15px; /* Borde del contenedor top-right-botton-left */   
+  background-color: white; /* Color de fondo */ 
+  font-size: 20px;      /* Tamaño de la letra */
+  border-radius: 15px;    /* Bordes redondeados */
+  margin-bottom: 40px;  /* Margen de abajo */
+}
+.boton{
+  text-align: center;       /* Centra el texto */
+}
+
+.mi_formulario{  
+    margin: 0 auto; /* Centrar el formulario */  
+    padding: 20px; /* Espaciado interno */  
+    border: 2px solid  #BC105C; /* Bordes del formulario */  
+    border-radius: 5px; /* Bordes redondeados */  
+    background-color: #f9f9f9; /* Color de fondo */ 
+    text-align: center; /*centrar el texto*/
+    background-image: url('/public/image/mario.webp'); /* Reemplaza con la ruta de tu archivo PNG */ 
+    background-repeat: repeat; 
+    background-size:contain; /* Mantiene el tamaño original de la imagen */  
+    width: 80%; 
+}
+
+.mi_formulario2{  
+  margin: 0 auto; /* Centrar el formulario */  
+  padding: 20px; /* Espaciado interno */  
+  border: 2px solid  #BC105C; /* Bordes del formulario */  
+  border-radius: 5px; /* Bordes redondeados */  
+  background-color: #f9f9f9; /* Color de fondo */ 
+  text-align: center; /*centrar el texto*/
+  background-image: url('/public/image/mortal-kombat.webp'); /* Reemplaza con la ruta de tu archivo PNG */ 
+  background-repeat: repeat;
+  background-size: 10%; 
+  width: 80%; 
+}
+
+.mi_formulario2 input{
+    width: 80%; /* Ancho total del campo */  
+    padding: 10px; /* Espaciado interno del campo */  
+    margin-bottom: 15px; /* Espaciado entre campos */  
+    border: 2px solid #BC105C; /* Bordes de los campos */  
+    border-radius: 3px; /* Bordes redondeados para los campos */  
+}
+
+.radio{
+  font-size: 15px;      /* Tamaño de la letra */ 
+  padding: 15px 20px 15px 40px; /* Borde del contenedor top-right-botton-left */
+  
+}
+.imagen_formulario{
+  width: 70%;
+
+}
+

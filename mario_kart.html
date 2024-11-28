@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="boton">Juegos de Mario Kart</title>
+  </head>
+  <body>
+    <header class="boton">
+      <div   class="caja">
+       <h1>  Comprar</h1> 
+      </div>
+    </header>
+    <main>
+      <div class ="caja2">
+        <div class="caja4">
+          <h3 class="estilo_mario">Mario Kart™ 8 Deluxe</h3> 
+          
+          <div class="linea-punteada"></div>
+          <div class="boton"><img class="imagen_formulario" src="./public/image/mario-kart-8-deluxe.webp" alt="imagen de Mario Kart 8 deluxe">
+          </div>
+          
+          <div class="radio">
+            <input type="radio" name="compra" checked="checked">Version digita <b>$1,199.00</b><br>
+            <input type="radio" name="compra" checked="checked">Version digita + pase "pistas extras" <b>$1,698.00</b><br>
+        </div>
+          <form  class="mi_formulario" action="/submit" method="POST">
+            
+            <label for="nombre"></label>  
+            <input type="text" style="width: 80%"  id="nombre" name="nombre" placeholder="Nombre completo" required><br>
+            
+            <label for="email"></label>  
+            <input type="email" style="width: 80%" id="email" name="email" placeholder="Correo electrónico" required><br>  
+    
+            <label for="contrasena"></label>  
+            <input type="password" style="width: 80%" id="contrasena" name="contrasena" placeholder="Contraseña" required><br> 
+
+            <label for="tarjeta"></label>  
+            <input type="text" style="width: 80%" id="tarjeta" name="tarjeta" placeholder="Número de Tarjeta de Crédito" required><br>  
+
+            <label for="fecha_expiracion"></label>  
+            <input type="text" id="fecha_expiracion" name="fecha_expiracion" placeholder="Fecha de Expiración (MM/AA)" required><br>  
+
+            <label for="cvv"></label>  
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" required><br> 
+
+          
+          </form>
+          <script> //Enlazar el boton con un enlace<a> 
+            function ir_Inicio() {  
+                var confirmar = window.confirm("¿Estás seguro de que quieres salir de esta página? Se perdera su compra"); 
+                  if(confirmar){
+                    window.location.href = 'index.html'; // Cambia a la URL de destino  
+                  } 
+            } 
+            // Boton de compra 
+        </script> 
+            <div class="boton">
+              <button>Comprar!</button>
+              <button onclick="ir_Inicio()">Inicio</button>
+            </div>
+        </div>
+       
+      </div>
+      
+    </main>
+
+    <footer >Desarrollado por misitio.com</footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
